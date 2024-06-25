@@ -2,12 +2,12 @@ package less4.model;
 
 import less4.util.UserComparator;
 
+
 public abstract class User extends UserComparator<User> implements Comparable<User> {
 
     protected int id;
     protected String name;
     protected String lastName;
-
 
     public int getId() {
         return id;
