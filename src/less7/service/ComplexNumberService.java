@@ -2,7 +2,7 @@ package less7.service;
 
 import less7.model.ComplexNumbers;
 
-public interface ComplexNumbersService {
+public interface ComplexNumberService {
     ComplexNumbers add(ComplexNumbers a, ComplexNumbers b);
 
     ComplexNumbers multiply(ComplexNumbers a, ComplexNumbers b);
